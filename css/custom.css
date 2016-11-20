@@ -2,14 +2,55 @@
 
 *{
     font-size: 20px;
-    font-family: 'Poppins', arial, sans-serif;
+    font-family: 'Lato', arial, sans-serif;
     box-sizing: border-box;
     -webkit-text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
 
-h1, h2 , h3, .logo, .hero-img span {
+
+
+section {
+    padding: 80px 0px;
+}
+
+ h2 {
+    color: #555555;
+    margin-bottom: 40px;
+    font-size: 150%;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: rgba(211, 84, 0,1.0);
+    content: " ";
+    width: 100px;
+    margin: 30px auto 30px auto;
+}
+
+
+h3 {
+    color: : #555555;
+    font-size: 125%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+ .logo, .hero-img span {
     font-family: 'Montserrat', arial, sans-serif;
+}
+
+p {
+    font-size: 90%;
+    text-align: left;
+    color: #5E5E5E;
+
 }
 
 
@@ -18,7 +59,7 @@ h1, h2 , h3, .logo, .hero-img span {
 .top-nav {
     background-color: #fff;
     padding: 10px 0px;
-    border-top: 3px solid #34495e;
+    border-top: 2px solid #2980b9;
     overflow: hidden;
 }
 
@@ -27,12 +68,15 @@ h1, h2 , h3, .logo, .hero-img span {
     font-weight: 500;
     margin-top: 5px;
     color: #2980b9;
+    letter-spacing: 1px;
 }
 
 #half-logo {
     font-family: 'Audiowide', arial, sans-serif;
     font-size: inherit;
     color: inherit;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 .top-nav-links {
@@ -53,20 +97,21 @@ h1, h2 , h3, .logo, .hero-img span {
 }
 
 .top-nav-links a:hover {
-    color: #2980b9;
+    color: #E67F23;
 }
 
 /* ============= Header ================= */
 
 .hero-img {
-    background-image: linear-gradient(rgba(69,83,120,0.8),rgba(69,83,120,0.8)), url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(69,90,120,0.8),rgba(69,90,120,0.8)), url(../images/hero.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 450px;
     color: #fff;
-    -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 77%, 0 100%);
+    border-bottom-right-radius: 20px;
 }
+
 
 .hero-img h1 {
     font-size: 250%;
@@ -86,10 +131,25 @@ h1, h2 , h3, .logo, .hero-img span {
     color: #fff;
     font-size: 100%;
     padding: 10px 25px;
-    border-radius: 2px;
+    font-weight: 600;
 }
 
 #hero-btn:hover {
-    background-color: #fff;
-    color: #2980b9;
+    background-color: rgba(52, 73, 94,0.7);
+    color: #fff;
     }
+
+
+.col-md-3 {
+    padding: 25px;
+}
+
+#how-we-code i {
+    font-size: 250%;
+    display: block;
+    color: rgba(211, 84, 0, 0.7);
+}
+
+.p-after-h2 {
+    font-size: 100%;
+}

@@ -1,4 +1,6 @@
 $(document).ready(function () {
+
+    /* Typed JS */
     $(function(){
         $("#typing_text").typed({
             strings: ["Think We Learn...", "Think We Build...", " Think We Share...", "Think WeCode!"],
@@ -10,4 +12,24 @@ $(document).ready(function () {
             loopCount: 3
         });
     });
+
+
+    /* Smooth Scrolling */
+
+      $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+
+
 });
