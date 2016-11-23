@@ -1,30 +1,42 @@
 /* ============= GLOBAL SETTINGS ================= */
 
 *{
-    font-size: 20px;
-    font-family: 'Lato', arial, sans-serif;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+html,body {
+	background-color: #fff;
+	color: #555;
+    font-weight: 300;
+    font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 20px;
+    overflow-x: hidden;
     -webkit-text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
 
-
-
 section {
-    padding: 70px 0px;
+    padding: 60px 0px;
 }
 
-.col-md-3 {
-    padding: 25px;
+
+/*============= Typography ================= */
+h1 {
+    font-size: 250%;
+    padding-top: 100px;
+    color: #FFE600;
 }
 
  h2 {
-    color: #555555;
     margin-bottom: 40px;
     font-size: 150%;
     letter-spacing: 1px;
     text-align: center;
-    text-transform: uppercase;
+    color: #555;
+    font-weight: 300;
 }
 
 h2:after {
@@ -38,12 +50,14 @@ h2:after {
 
 
 h3 {
-    color: : #555555;
     font-size: 125%;
-    text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 300;
     margin-top: 0px;
+    font-weight: 300;
+}
+
+h2, h3, h4 {
+    text-transform: uppercase;
 }
 
  .logo, .hero-img span {
@@ -53,11 +67,14 @@ h3 {
 p {
     font-size: 90%;
     text-align: left;
-    color: #5E5E5E;
     letter-spacing: 1px;
-
+    line-height: 26px;
 }
 
+.p-after-h2 {
+    font-size: 100%;
+    margin-bottom: 30px;
+}
 
 /* ============= TOP-NAVIGATION ================= */
 
@@ -70,11 +87,10 @@ p {
 
 .logo {
     font-size: 150%;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 5px;
     color: #2980b9;
     letter-spacing: 1px;
-    /*font-family: 'Audiowide', arial, sans-serif;*/
 }
 
 
@@ -90,13 +106,13 @@ p {
 .top-nav-links a {
     text-decoration: none;
     font-size: 80%;
-    color: rgba(211, 84, 0,1.0);
-    font-family: 'Montserrat', arial, sans-serif;
+    color: #d35400;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .top-nav-links a:hover {
-    color: #E67F23;
+    color: rgba(211, 84, 0, 0.7);
 }
 
 /* ============= Header ================= */
@@ -112,11 +128,7 @@ p {
 }
 
 
-.hero-img h1 {
-    font-size: 250%;
-    padding-top: 100px;
-    color: #FFE600;
-}
+
 
 .hero-img span {
     font-size: 205%;
@@ -148,6 +160,108 @@ p {
     color: rgba(211, 84, 0, 0.7);
 }
 
-.p-after-h2 {
+
+/* =================== A Tupical Day =================*/
+
+#tupical-day {
+    background-color: #003E54;
+    color: #fff;
+}
+
+#tupical-day h2 {
+    color: #fff;
+}
+
+#tupical-day .row:first-child {
+    border-bottom: 1px solid #4CBED7;
+}
+.dark-background {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.schedule {
+    border-right: 1px solid #4CBED7;
+}
+
+.morning, .afternoon {
+    list-style-type: none;
+    padding: 0 50px;
+    margin-left: 40px;
+}
+.schedule li {
+    font-size: 75%;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 10px;
+}
+
+
+.row :nth-child(4){
+    border-right: none;
+}
+
+
+.morning span, .afternoon span {
+    font-size: 200%;
+    font-weight: bold;
+    position: absolute;
+    left: -60px;
+    top: 8px;
+}
+
+
+.morning span {
+    color: #d35400;
+}
+
+
+.afternoon span {
+    color: #4CBED7;
+}
+
+.morning span:after, .afternoon span:after {
+    font-size: 50%;
+    position: relative;
+    top: -10px;
+    font-weight: bold;
+}
+
+.morning span:after {
+    content: "am";
+}
+
+.afternoon span:after {
+    content: "pm"
+}
+
+.morning :nth-child(3) span:after,
+.afternoon :nth-child(3) span:after {
+    content: "30";
+}
+
+#tupical-day h4 {
+    padding-top: 25px;
     font-size: 100%;
+    position: relative;
+    font-weight: bold;
+}
+
+#tupical-day h4 span {
+    color: #4CBED7;
+    position: absolute;
+    left: -30px;
+    font-size: 175%;
+    top: 20px;
+}
+
+#tupical-day h4 span:after {
+    content: "PM";
+    font-size: 50%;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
 }
