@@ -19,14 +19,14 @@ html,body {
 }
 
 section {
-    padding: 60px 0px;
+    padding: 40px 0px;
 }
 
 
 /*============= Typography ================= */
 h1 {
     font-size: 300%;
-    padding-top: 130px;
+    padding-top: 180px;
     color: #FFE600;
 }
 
@@ -56,7 +56,11 @@ h3 {
     font-weight: 300;
 }
 
-h2, h3, h4 {
+h5 {
+    font-size: 100%;
+}
+
+h2, h3, h4, h5 {
     text-transform: uppercase;
 }
 
@@ -80,14 +84,13 @@ p {
 
 .top-nav {
     background-color: #fff;
-    padding: 5px 0px;
     border-top: 2px solid #FA4659;
     overflow: hidden;
 }
 
 .logo {
-    font-size: 150%;
-    font-weight: 700;
+    font-size: 125%;
+    font-weight: 600;
     margin-top: 5px;
     color: #FA4659;
     letter-spacing: 1px;
@@ -106,9 +109,9 @@ p {
 .top-nav-links a {
     text-decoration: none;
     font-size: 80%;
-    color: #07617D;
+    color: #555;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 
@@ -116,11 +119,11 @@ p {
 
 .hero-img {
     /*background-image: linear-gradient(rgba(69,90,120,0.8),rgba(69,90,120,0.8)), url(../images/hero1.jpg);*/
-    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(../images/hero1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(../images/hero3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 575px;
+    height: 585px;
     color: #fff;
     border-bottom-right-radius: 20px;
 }
@@ -162,7 +165,7 @@ p {
 /* =================== A Tupical Day =================*/
 
 #tupical-day {
-    background-color: #003E54;
+    background-color: #555;
     color: #fff;
 }
 
@@ -171,7 +174,7 @@ p {
 }
 
 #tupical-day .row:first-child {
-    border-bottom: 1px solid #4CBED7;
+    border-bottom: 1px solid #fff;
 }
 .dark-background {
     color: #fff;
@@ -179,7 +182,7 @@ p {
 }
 
 .schedule {
-    border-right: 1px solid #4CBED7;
+    border-right: 1px solid #fff;
 }
 
 .morning, .afternoon {
@@ -264,4 +267,24 @@ p {
     font-weight: bold;
     position: relative;
     top: -10px;
+}
+
+
+
+
+
+/* =================== 12 WEEK =================*/
+
+
+.frameworks-img {
+    transform: scale(0.9);
+    transition: transform 1.5s;
+}
+
+.frameworks-img:hover {
+    transform: scale(1);
+}
+
+.overview {
+    margin-bottom: 30px;
 }
