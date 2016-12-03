@@ -283,3 +283,7 @@ p {
     border-left: 1px solid #FA4659;
     padding-left: 15px;
 }
+
+.curriculum-overview li {
+    font-size: 75%;
+}
