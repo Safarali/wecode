@@ -3,4 +3,8 @@
         display: none;
     }
 
+    .overview img {
+        width: 400px;
+        margin: auto;
+    }
 }
