@@ -169,10 +169,10 @@ p {
 /* ============= Header ================= */
 
 .hero-img {
-    background-image: -webkit-linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(../images/hero3.jpg);
-    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(../images/hero3.jpg);
+    background-image: -webkit-linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(../images/hero1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(../images/hero1.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 85% 100%;
     background-repeat: no-repeat;
     height: 640px;
     color: #fff;
