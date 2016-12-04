@@ -13,7 +13,6 @@ $(document).ready(function () {
         });
     });
 
-
     /* Smooth Scrolling */
 
       $(function() {
@@ -30,6 +29,18 @@ $(document).ready(function () {
           }
         });
       });
+
+    //   /* it is for sticky navigation */
+    //   $('.js--how-we-code').waypoint(function(direction){
+    //       if (direction === "down"){
+    //           $('.top-nav').addClass('sticky');
+    //       }
+    //       else {
+    //           $('.top-nav').removeClass('sticky');
+    //       }
+    //   }, {
+    //     offset: '60px;'
+    //   })
 
 
 });
