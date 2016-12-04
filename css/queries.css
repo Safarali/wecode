@@ -5,6 +5,10 @@
     /* General */
     * { font-size: 18px; }
 
+    h1 {
+        padding-top: 220px;
+    }
+
     h2:after { margin: 15px auto; }
 
     .p-after-h2 { margin-top: -20px; }
@@ -55,4 +59,10 @@
     /* footer */
 
     .footer { text-align: center; }
+}
+
+
+@media only screen and (max-width : 480 px) {
+
+       .media--row { padding: 0px; }
 }

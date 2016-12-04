@@ -15,7 +15,7 @@ $(document).ready(function () {
     /* Typed JS */
     $(function(){
         $("#typing_text").typed({
-            strings: ["Learning must be affordable...", "Think Project based coding...", " Think Team based learning", "Think WeCode..."],
+            strings: ["Learning must be affordable...", "Team based learning...", "Think WeCode..."],
             typeSpeed: 25,
             backSpeed: 0,
             backDelay: 1000,
