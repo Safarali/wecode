@@ -26,7 +26,7 @@ section, footer {
 /*============= Typography ================= */
 h1 {
     font-size: 240%;
-    padding-top: 220px;
+    padding-top: 260px;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 2px;
@@ -131,16 +131,28 @@ p {
     border-bottom: 2px solid #FA4659;
 }
 
+/* Sticky Navigation */
 .sticky {
+    padding: 0px 50px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255,255,255, 0.98);
+    background-color: rgba(65,71,77,0.98);
 	box-shadow: 0 2px 2px #efefef;
 	z-index: 9999;
-
 }
+
+.sticky .logo {
+    color: #FA4659;
+}
+.sticky .top-nav-links a {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+
+
 
 /* ============= Header ================= */
 
@@ -152,7 +164,6 @@ p {
     background-repeat: no-repeat;
     height: 640px;
     color: #fff;
-    border-bottom-right-radius: 20px;
 }
 
 
@@ -336,7 +347,6 @@ p {
 
 .admissions {
     background-color: #EBF7FF;
-    border-top: 2px solid #3498db;
 }
 
 

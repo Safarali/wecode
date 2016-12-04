@@ -3,7 +3,6 @@
 @media only screen and (max-width: 979px){
 
     /* General */
-
     * { font-size: 18px; }
 
     h2:after { margin: 15px auto; }
@@ -27,12 +26,12 @@
 @media only screen and (max-width: 767px){
 
     /* Navigation */
-
+    .sticky {
+        padding: 0px 20px 5px;
+    }
     .js--top-nav-links { display: none; }
 
     /* Header */
-
-    h1 { padding-top: 190px; font-weight: 400;}
 
     #typing_text { font-size: 150%; }
 
