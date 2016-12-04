@@ -1,10 +1,102 @@
-@media (max-width: 991px) {
-    .top-nav-links {
+/* ======== Extra small devices (portrait phones, less than 544px) ===== */
+
+@media (max-width: 543px) {
+
+    /* General */
+
+    *{ font-size: 18px; }
+    h2:after { margin: 15px auto; }
+    .p-after-h2 { margin-top: -20px; }
+
+
+    /* Navigation */
+
+    .js--top-nav-links {
         display: none;
     }
-
-    .overview img {
-        width: 400px;
-        margin: auto;
+    /* Header */
+    h1 {
+        font-size: 225%;
     }
+
+    #typing_text {
+        font-size: 150%;
+    }
+
+    /* Tupical day */
+
+    #tupical-day .row > :nth-child(3){
+       border: none;
+   }
+
+   #tupical-day h4 {
+       padding-left: 15px;
+   }
+
+   /* Footer */
+
+   .footer { text-align: center; }
+
+}
+
+
+
+/* =================== // Small devices (landscape phones, 544px and up) =============== */
+@media (min-width: 544px) and (max-width: 767px) {
+    /* General */
+
+    *{ font-size: 18px; }
+    h2:after { margin: 15px auto; }
+    .p-after-h2 { margin-top: -20px; }
+
+    /* Navigation */
+
+    .js--top-nav-links { display: none; }
+
+    /* Header */
+
+    h1 { padding-top: 130px; }
+
+    #typing_text { font-size: 150%; }
+
+    /* Tupical day */
+    #tupical-day .row > :nth-child(3){
+       border: none;
+   }
+
+   /* Admissions */
+
+   #admissions .col-xs-12 { margin-bottom: 15px; }
+
+   .media--row { padding: 20px; }
+
+   a.apply-button {margin-top: 10px;}
+
+    /* footer */
+
+    .footer { text-align: center; }
+}
+
+/* ============ // Medium devices (tablets, 768px and up) ========== */
+@media (min-width: 768px) and (max-width: 979px){
+
+    /* General */
+
+    * { font-size: 18px; }
+
+    h2:after { margin: 15px auto; }
+
+    .p-after-h2 { margin-top: -20px; }
+
+    /* Tupical day section */
+
+    #tupical-day h4 { padding-left: 20px; }
+
+    /* Admissions */
+
+    #admissions .col-sm-6 { margin-bottom: 15px; }
+
+    /* Footer */
+    .footer .logo { padding-top: 5px; }
+
 }
