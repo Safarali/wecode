@@ -26,9 +26,21 @@ $(document).ready(function () {
     });
 
 
-    $('.js--toggle').click(function () {
-        $('.top-nav-links').slideToggle(50);
-    })
+    $('.js--nav-icon').click(function () {
+        var nav = $('.js--top-nav-links');
+        var icon = $('.js--nav-icon i');
+
+        nav.slideToggle(200);
+
+        if(icon.hasClass('fa-th-list')){
+            icon.addClass('ion-close')
+            icon.removeClass('fa-th-list');
+        }
+        else {
+            icon.addClass('fa-th-list');
+            icon.removeClass('ion-close');
+        }
+    });
     /* Smooth Scrolling */
 
       $(function() {

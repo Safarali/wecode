@@ -124,6 +124,7 @@ p {
     letter-spacing: 1px;
     border-bottom: 2px solid transparent;
     padding-bottom: 8px;
+    -webkit-transition: border-bottom 0.5s;
     transition: border-bottom 0.5s;
 }
 
@@ -195,6 +196,7 @@ p {
     padding: 10px 55px;
     font-weight: 400;
     border-radius: 15px;
+    -webkit-transition: background-color 1s, color 1s;
     transition: background-color 1s, color 1s;
 }
 
