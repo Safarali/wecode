@@ -1,58 +1,30 @@
-/* ======== Extra small devices (portrait phones, less than 544px) ===== */
 
-@media (max-width: 543px) {
+/* ============ // Medium devices (tablets, 768px and up) ========== */
+@media only screen and (max-width: 979px){
 
     /* General */
 
-    *{ font-size: 18px; }
+    * { font-size: 18px; }
+
     h2:after { margin: 15px auto; }
+
     .p-after-h2 { margin-top: -20px; }
 
+    /* Tupical day section */
 
-    /* Navigation */
+    .tupical-day h4 { padding-left: 20px; }
 
-    .js--top-nav-links {
-        display: none;
-    }
-    /* Header */
-    h1 {
-        padding-top: 190px;
-        font-size: 200%;
-        font-weight: 400;
-    }
+    /* Admissions */
 
-    #typing_text {
-        font-size: 150%;
-    }
+    .admissions .col-sm-6 { margin-bottom: 15px; }
 
-    /* Tupical day */
-
-    .tupical-day .row > :nth-child(3){
-       border: none;
-   }
-
-   .tupical-day h4 {
-       padding-left: 15px;
-       border-top: 1px solid #fff;
-   }
-   .tupical-day .row:first-child { border: none; }
-
-
-   /* Footer */
-
-   .footer { text-align: center; }
+    /* Footer */
+    .footer .logo { padding-top: 5px; }
 
 }
 
-
-
 /* =================== // Small devices (landscape phones, 544px and up) =============== */
-@media (min-width: 544px) and (max-width: 767px) {
-    /* General */
-
-    *{ font-size: 18px; }
-    h2:after { margin: 15px auto; }
-    .p-after-h2 { margin-top: -20px; }
+@media only screen and (max-width: 767px){
 
     /* Navigation */
 
@@ -84,29 +56,4 @@
     /* footer */
 
     .footer { text-align: center; }
-}
-
-/* ============ // Medium devices (tablets, 768px and up) ========== */
-@media (min-width: 768px) and (max-width: 979px){
-
-    /* General */
-
-
-    * { font-size: 18px; }
-
-    h2:after { margin: 15px auto; }
-
-    .p-after-h2 { margin-top: -20px; }
-
-    /* Tupical day section */
-
-    .tupical-day h4 { padding-left: 20px; }
-
-    /* Admissions */
-
-    .admissions .col-sm-6 { margin-bottom: 15px; }
-
-    /* Footer */
-    .footer .logo { padding-top: 5px; }
-
 }
