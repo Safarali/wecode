@@ -144,15 +144,26 @@ p {
 }
 
 .sticky .logo {
-    color: #FA4659;
+    color: #fff;
 }
 .sticky .top-nav-links a {
     color: #fff;
     padding-bottom: 10px;
 }
 
+/* Mobile Nav */
 
+.mobile-nav-icon {
+    float: right;
+    cursor: pointer;
+    margin-top: 12px;
+    display: none;
+}
 
+.mobile-nav-icon i {
+    font-size: 100%;
+    color: #fff;
+}
 
 /* ============= Header ================= */
 

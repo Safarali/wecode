@@ -25,6 +25,10 @@ $(document).ready(function () {
         });
     });
 
+
+    $('.js--toggle').click(function () {
+        $('.top-nav-links').slideToggle(50);
+    })
     /* Smooth Scrolling */
 
       $(function() {

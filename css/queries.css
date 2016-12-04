@@ -30,11 +30,31 @@
 @media only screen and (max-width: 767px){
 
     /* Navigation */
-    .sticky {
-        padding: 0px 20px 5px;
+    .top-nav-links li {
+        margin-left: 0px;
+        display: block;
     }
-    .js--top-nav-links { display: none; }
 
+    .top-nav-links {
+        display: none;
+        /*margin-top: 40px;
+        float: none !important;*/
+    }
+
+    .top-nav-links a:hover {
+        border-bottom: 2px solid transparent;
+    }
+
+    .sticky {
+        padding-left: 25px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .mobile-nav-icon {
+        display: block;
+    }
     /* Header */
 
     #typing_text { font-size: 150%; }
@@ -51,8 +71,6 @@
    /* Admissions */
 
    .admissions .col-xs-12 { margin-bottom: 15px; }
-
-   .media--row { padding: 20px; }
 
    a.apply-button {margin-top: 10px;}
 
