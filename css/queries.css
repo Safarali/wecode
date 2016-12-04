@@ -62,7 +62,7 @@
 }
 
 
-@media only screen and (max-width : 480 px) {
+@media only screen and (max-width : 480px;) {
 
        .media--row { padding: 0px; }
 }
