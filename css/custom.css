@@ -18,7 +18,7 @@ html,body {
     -webkit-font-smoothing: antialiased;
 }
 
-section {
+section, footer {
     padding: 40px 0px;
 }
 
@@ -298,7 +298,7 @@ p {
 }
 
 
-/* =================== Admissions =================*/
+/* =================== Admissions Section =================*/
 
 
 #admissions {
@@ -326,4 +326,52 @@ a.apply-button {
     background-color: #3498db;
     padding: 5px 70px;
     border-radius: 5px;
+}
+
+a.apply-button:hover {
+    background-color: #2980b9;
+}
+
+/* =================== Footer =================*/
+
+.footer {
+    background-color: #41474D;
+}
+
+
+.footer .logo {
+    color: #fff;
+    font-size: 100%;
+}
+
+.footer-links {
+    list-style-type: none;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color:#a0a3a6;
+    font-size: 85%;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+.footer-icons i {
+    display: inline-block;
+    padding-top: 17px;
+    letter-spacing: 10px;
+    color:  #a0a3a6;
+    font-size: 85%;
+}
+
+.footer-icons i:hover {
+    color: #fff;
 }
