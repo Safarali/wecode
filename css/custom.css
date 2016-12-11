@@ -168,12 +168,12 @@ p {
 /* ============= Header ================= */
 
 .hero-img {
-    background-image: -webkit-linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(../images/hero1.jpg);
-    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(../images/hero1.jpg);
+    background-image: -webkit-linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(../images/hero4.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(../images/hero4.jpg);
     background-size: cover;
-    background-position: 85% 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 640px;
+    height: 660px;
     color: #fff;
 }
 
