@@ -10,12 +10,12 @@
 html,body {
 	background-color: #fff;
 	color: #555;
-    font-weight: 300;
-    font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 300;
+  font-family: 'Quattrocento Sans', sans-serif;
 	font-size: 20px;
-    overflow-x: hidden;
-    -webkit-text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  -webkit-text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 section, footer {
@@ -29,10 +29,16 @@ h1 {
     padding-top: 260px;
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     line-height: 52px;
     color: #fff;
 
+}
+
+#sacramento {
+  font-size: inherit;
+  font-weight: bold;
+  color: #FA4659;
 }
 
  h2 {
@@ -86,7 +92,7 @@ p {
 }
 
 #typing_text {
-    color: #FA4659;
+    color: #fff;
     font-size: 150%;
     font-weight: 400;
 }
@@ -184,10 +190,13 @@ p {
     font-size: 205%;
 }
 
-#hero-btn {
+.hero-btn {
+  margin-top: 30px;
+}
+.hero-btn a {
+  text-decoration: none;
     outline: none;
-    display: block;
-    margin-top: 30px;
+    display: inline;
     background-color: transparent;
     border: 2px solid #FA4659;
     color: #FA4659;
@@ -199,7 +208,7 @@ p {
     transition: background-color 1s, color 1s;
 }
 
-#hero-btn:hover {
+.hero-btn a:hover {
     background-color: #FA4659;
     color: #fff;
 }
